@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sachi Thonse Rao — Computer Science undergraduate, AI/ML researcher, and systems builder at IIIT Hyderabad.">
+  <meta name="author" content="Sachi Thonse Rao">
+  <title>Sachi Thonse Rao | CS • AI/ML • Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">STR<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-github" href="https://github.com/sachi-200" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">COMPUTER SCIENCE • AI/ML • SYSTEMS</p>
+        <h1>Sachi<br><em>Thonse Rao</em></h1>
+        <p class="hero-text">
+          Computer Science undergraduate at IIIT Hyderabad building systems at the intersection of
+          <strong>AI, high-performance computing, databases, operating systems, and intelligent software.</strong>
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work ↓</a>
+          <a class="button ghost" href="mailto:sachi.rao10@gmail.com">Get in touch ↗</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/sachi-200" target="_blank" rel="noreferrer">GitHub</a>
+          <span>·</span>
+          <a href="https://leetcode.com/u/SachiRao/" target="_blank" rel="noreferrer">LeetCode</a>
+          <span>·</span>
+          <a href="mailto:sachi.rao10@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <div class="terminal">
+          <p><span class="muted">$</span> whoami</p>
+          <p class="output">sachi_thonse_rao</p>
+          <p><span class="muted">$</span> focus --current</p>
+          <p class="output">LLM-guided HPC optimization</p>
+          <p class="output">Code generation &amp; retrieval</p>
+          <p class="output">Systems &amp; databases</p>
+          <p><span class="muted">$</span> status</p>
+          <p class="status">● researching + building</p>
+          <div class="terminal-line"></div>
+          <p class="mini-stat"><span>IIIT Hyderabad</span><b>8.41 / 10</b></p>
+          <p class="mini-stat"><span>Research</span><b>2025 → now</b></p>
+          <p class="mini-stat"><span>Projects</span><b>10+</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div class="section-label">
+        <span>01</span>
+        <span>ABOUT</span>
+      </div>
+      <div class="section-content">
+        <h2>Building things that make<br><em>complex systems useful.</em></h2>
+        <div class="about-grid">
+          <p>
+            I’m a Computer Science undergraduate at the <strong>International Institute of Information Technology, Hyderabad</strong>.
+            My work spans research and engineering—from optimizing graph and matrix kernels with LLM-guided agents
+            to building operating systems, database engines, recommendation systems, and AI applications.
+          </p>
+          <p>
+            I enjoy problems where software meets theory and performance: <strong>compilers and code generation,
+            HPC, retrieval-augmented generation, systems, machine learning, and algorithms.</strong>
+            Outside coursework, I build projects that turn technical ideas into interactive, usable systems.
+          </p>
+        </div>
+        <div class="fact-row">
+          <div><span>Education</span><strong>B.Tech CSE · IIITH</strong></div>
+          <div><span>Location</span><strong>Hyderabad, India</strong></div>
+          <div><span>Scholarship</span><strong>NTSE Scholar · 2021</strong></div>
+          <div><span>Teaching</span><strong>TA · Linear Algebra &amp; CP</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section split-section dark-section">
+      <div class="section-label">
+        <span>02</span>
+        <span>RESEARCH</span>
+      </div>
+      <div class="section-content">
+        <div class="research-intro">
+          <p class="eyebrow">CURRENT WORK</p>
+          <h2>Researching the loop between<br><em>models, code, and machines.</em></h2>
+        </div>
+
+        <article class="research-card">
+          <div class="research-meta">
+            <span>APR 2025 — PRESENT</span>
+            <span>IIIT HYDERABAD</span>
+          </div>
+          <h3>Undergraduate Researcher</h3>
+          <p class="org">Center for Security, Theory and Algorithmic Research</p>
+          <ul>
+            <li>Developed LLM-guided and agentic optimization frameworks for high-performance graph and matrix algorithms, using profiling feedback, roofline analysis, cache statistics, SIMD/AVX-FMA vectorization, OpenMP parallelization, BFS traversal, and WCC decomposition.</li>
+            <li>Built <strong>GraphRAG-Coder</strong>, a domain-specific knowledge-graph augmented framework for HPC code generation using hybrid semantic-structural retrieval, personalized PageRank context pruning, and reliability-driven reranking.</li>
+            <li>Improved OpenMP Pass@1 from <strong>0.20 → 0.60</strong> and achieved up to <strong>185 GFLOPs on Intel</strong> and <strong>153 GFLOPs on AMD</strong> processors.</li>
+          </ul>
+          <div class="tag-row"><span>LLM Agents</span><span>HPC</span><span>GraphRAG</span><span>OpenMP</span><span>SIMD</span></div>
+        </article>
+
+        <article class="research-card">
+          <div class="research-meta">
+            <span>JUN 2026 — PRESENT</span>
+            <span>UIUC</span>
+          </div>
+          <h3>AI/ML Research Intern</h3>
+          <p class="org">University of Illinois Urbana-Champaign</p>
+          <ul>
+            <li>Contributing to a survey of <strong>discrete diffusion models for code generation</strong>, covering code-specialized architectures, iterative denoising, infilling, planning, verification, and hybrid autoregressive–diffusion generation.</li>
+            <li>Developing taxonomies and comparative analyses of architectures, generation strategies, structural guidance, and verification mechanisms, alongside empirical experiments on performance–efficiency trade-offs.</li>
+          </ul>
+          <div class="tag-row"><span>Diffusion Models</span><span>Code Generation</span><span>AI/ML</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-label">
+        <span>03</span>
+        <span>SELECTED PROJECTS</span>
+      </div>
+      <div class="section-content">
+        <div class="projects-heading">
+          <h2>Systems, models &amp;<br><em>things I’ve shipped.</em></h2>
+          <a href="https://github.com/sachi-200?tab=repositories" target="_blank" rel="noreferrer">View all repositories ↗</a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project featured">
+            <div class="project-top"><span>01</span><a href="https://github.com/sachi-200" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>Enhanced XV6 Operating System &amp; Networking</h3>
+            <p>Kernel-level system calls, user alarms, Lottery Scheduling and 4-level MLFQ, plus TCP/UDP networking applications and a reliable UDP transport protocol.</p>
+            <div class="tag-row"><span>C</span><span>XV6</span><span>Linux</span><span>TCP/IP</span><span>UDP</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>02</span><a href="https://github.com/sachi-200/CShell" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>CShell</h3>
+            <p>Unix-like shell in C with 15+ features: fork/exec process management, signals, job control, arbitrary-length pipelines, redirection, aliases, history, and a TCP man-page client.</p>
+            <div class="tag-row"><span>C</span><span>POSIX</span><span>Linux</span><span>Sockets</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>03</span><a href="https://github.com/sachi-200/Relational-and-Graph-Database-Engine" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>Relational &amp; Graph Database Engine</h3>
+            <p>Extended MIT SimpleRA with external-memory sorting and joins, graph queries, page-level Strict Timestamp Ordering, buffer management, rollback and transaction scheduling.</p>
+            <div class="tag-row"><span>C++</span><span>DBMS</span><span>File Systems</span><span>Concurrency</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>04</span><a href="https://github.com/sachi-200/RagaSense-Interactive-Carnatic-Raga-Mapping-Platform" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>RagaSense</h3>
+            <p>AI-powered Carnatic raga recognition and exploration platform with a 5+ layer 1D CNN trained on 10,000+ hours of audio and reported &gt;98% classification accuracy.</p>
+            <div class="tag-row"><span>PyTorch</span><span>CNN</span><span>Flask</span><span>Audio ML</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>05</span><a href="https://github.com/sachi-200/Blockchain-Integrated-Document-Management-System" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>Blockchain Document Management</h3>
+            <p>Certificate of Origin platform using NFT-backed certificates, Algorand, Pinata IPFS, SHA-256 hashing, WebSockets and Maker–Checker workflows.</p>
+            <div class="tag-row"><span>React</span><span>Node.js</span><span>Algorand</span><span>IPFS</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>06</span><a href="https://github.com/sachi-200/IIITH-E-Commerce-Platform" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>IIITH E-Commerce Platform</h3>
+            <p>MERN peer-to-peer marketplace with JWT auth, search/filtering, carts, order management, OTP delivery verification and protected REST APIs, supporting 500+ listings.</p>
+            <div class="tag-row"><span>React</span><span>Express</span><span>MongoDB</span><span>JWT</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>07</span><a href="https://github.com/sachi-200/CryptoSuite" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>CryptoSuite</h3>
+            <p>Interactive cryptography learning platform with 15+ algorithm implementations and 20+ visual demonstrations covering encryption, authentication and cryptanalysis.</p>
+            <div class="tag-row"><span>React</span><span>Vite</span><span>Cryptography</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>08</span><a href="https://github.com/sachi-200/Character-Level-Decoder-Only-Transformer" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>Character-Level Decoder Transformer</h3>
+            <p>3-layer decoder-only Transformer from scratch in PyTorch with causal multi-head attention, Pre-LN/Post-LN variants, temperature sampling and attention visualization.</p>
+            <div class="tag-row"><span>PyTorch</span><span>Transformers</span><span>Deep Learning</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>09</span><a href="https://github.com/sachi-200/MonuLens---Monuments-Identifier" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>MonuLens</h3>
+            <p>Streamlit monument recognition app using fine-tuned EfficientNet-B2 across 24 Indian monument classes, with CLIP zero-shot fallback and visitor information.</p>
+            <div class="tag-row"><span>PyTorch</span><span>EfficientNet</span><span>CLIP</span><span>Streamlit</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>10</span><a href="https://github.com/sachi-200/NewsRecX-Personalized-News-Recommendation-System" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>NewsRecX</h3>
+            <p>Retrieve-then-rank news recommendation pipeline using BM25, multilingual semantic embeddings, behavioral features, FAISS and a LightGBM LambdaMART reranker.</p>
+            <div class="tag-row"><span>Python</span><span>LightGBM</span><span>FAISS</span><span>NLP</span></div>
+          </article>
+
+          <article class="project">
+            <div class="project-top"><span>11</span><a href="https://github.com/sachi-200/NoteVision---Indian-Currency-Classifier" target="_blank" rel="noreferrer">↗</a></div>
+            <h3>NoteVision</h3>
+            <p>Indian currency classifier across 7 denominations with CNN architectures, augmentation, batch normalization, Grad-CAM analysis and a parameter-efficient depthwise-separable model.</p>
+            <div class="tag-row"><span>PyTorch</span><span>CNN</span><span>Computer Vision</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section split-section">
+      <div class="section-label">
+        <span>04</span>
+        <span>TOOLKIT</span>
+      </div>
+      <div class="section-content">
+        <h2>Tools I use to<br><em>turn ideas into systems.</em></h2>
+        <div class="skills-list">
+          <div class="skill-line"><span>LANGUAGES</span><p>C++ · C · Python · JavaScript · SQL</p></div>
+          <div class="skill-line"><span>WEB &amp; DATABASES</span><p>React.js · Node.js · Express.js · Flask · HTML · CSS · MongoDB · MySQL</p></div>
+          <div class="skill-line"><span>MACHINE LEARNING</span><p>PyTorch · Hugging Face Transformers · Scikit-Learn · OpenCV · NumPy · Pandas · Matplotlib</p></div>
+          <div class="skill-line"><span>SYSTEMS &amp; NETWORKING</span><p>Linux · POSIX · XV6 · TCP/IP · UDP · Socket Programming · OpenMP · CUDA</p></div>
+          <div class="skill-line"><span>TOOLS</span><p>Git · Streamlit · Vite · IPFS · Algorand</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="section-label">
+        <span>05</span>
+        <span>EDUCATION &amp; TEACHING</span>
+      </div>
+      <div class="section-content">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="date">2023 — 2027</span>
+            <div><h3>International Institute of Information Technology, Hyderabad</h3><p>B.Tech in Computer Science and Engineering · <strong>8.41 / 10</strong></p></div>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2026</span>
+            <div><h3>Teaching Assistant · IIIT Hyderabad</h3><p>Linear Algebra (Spring '26) · Computer Programming (Monsoon '25)</p></div>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2021</span>
+            <div><h3>NTSE Scholar</h3><p>Recipient of the National Talent Search Examination Scholarship, NCERT.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2023</span>
+            <div><h3>National Public School, Bengaluru</h3><p>CBSE Senior Secondary School Examination · <strong>98%</strong></p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-inner">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Have an interesting<br><em>problem to solve?</em></h2>
+        <p>Research collaboration, systems work, AI/ML projects, or just a technical conversation—feel free to reach out.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:sachi.rao10@gmail.com">sachi.rao10@gmail.com ↗</a>
+          <a class="button ghost" href="https://github.com/sachi-200" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="button ghost" href="https://leetcode.com/u/SachiRao/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Sachi Thonse Rao</span>
+    <span>Built with HTML + CSS + a little JS.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
